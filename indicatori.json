@@ -1,1 +1,35 @@
-{"generato":"2026-11-07","ota":[]}
+{
+ "generato": "2026-11-08",
+ "ota": [
+  {
+   "portale": "Google",
+   "punteggio": "4,6",
+   "scala": "5",
+   "recensioni": 879,
+   "data": "2026-11-07",
+   "url": "https://www.google.com/maps/place/EL+Faro+Hotel/@40.5932771,8.202918,17z"
+  },
+  {
+   "portale": "Tripadvisor",
+   "punteggio": "4,3",
+   "scala": "5",
+   "recensioni": 1413,
+   "data": "2026-11-07",
+   "url": "https://www.tripadvisor.it/Hotel_Review-g187880-d239313-Reviews-El_Faro_Hotel-Alghero_Province_of_Sassari_Sardinia.html"
+  }
+ ],
+ "social": [
+  {
+   "canale": "Facebook",
+   "follower": 4343,
+   "data": "2026-11-07",
+   "url": "https://www.facebook.com/HotelElFaroAlghero/"
+  },
+  {
+   "canale": "Instagram",
+   "follower": 15200,
+   "data": "2026-11-07",
+   "url": "https://www.instagram.com/elfarohotelalghero/"
+  }
+ ]
+}
