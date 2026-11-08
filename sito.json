@@ -1,0 +1,141 @@
+{
+ "aggiornato": "2026-11-08",
+ "sito": "https://www.elfarohotel.it/",
+ "ambito": "Pagina iniziale (rilevazione di avvio, da completare con il controllo del cloud)",
+ "pagine": [
+  {
+   "nome": "Hotel El Faro",
+   "url": "/hotel-el-faro/"
+  },
+  {
+   "nome": "Camere & Suites",
+   "url": "/camere/"
+  },
+  {
+   "nome": "Piscine",
+   "url": "/hotel-alghero-con-piscina/"
+  },
+  {
+   "nome": "Dining",
+   "url": "/ristorante-sul-mare-e-lounge-bar/"
+  },
+  {
+   "nome": "Thalasso & Spa",
+   "url": "/thalasso-spa/"
+  },
+  {
+   "nome": "Vacanze sportive",
+   "url": "/vacanze-sportive/"
+  },
+  {
+   "nome": "Esperienze",
+   "url": "/esperienze-in-sardegna/"
+  },
+  {
+   "nome": "Meeting & Eventi",
+   "url": "/meeting-eventi/"
+  },
+  {
+   "nome": "Contatti",
+   "url": "/contatti/"
+  }
+ ],
+ "controlli": [
+  {
+   "area": "indicizzazione",
+   "titolo": "Tag canonical",
+   "esito": "ok",
+   "dettaglio": "Presente nella pagina iniziale: https://www.elfarohotel.it/."
+  },
+  {
+   "area": "indicizzazione",
+   "titolo": "Istruzioni ai motori di ricerca (meta robots)",
+   "esito": "ok",
+   "dettaglio": "index, follow e anteprime immagini e testo senza limiti: la pagina può essere indicizzata."
+  },
+  {
+   "area": "indicizzazione",
+   "titolo": "File robots.txt",
+   "esito": "non verificato",
+   "dettaglio": "Non leggibile in questa rilevazione: verrà controllato dal cloud."
+  },
+  {
+   "area": "indicizzazione",
+   "titolo": "Mappa del sito (sitemap.xml)",
+   "esito": "non verificato",
+   "dettaglio": "Non leggibile in questa rilevazione: verrà controllato dal cloud. Serve a segnalare a Google tutte le pagine e le versioni in lingua."
+  },
+  {
+   "area": "contenuti",
+   "titolo": "Titolo della pagina (title)",
+   "esito": "attenzione",
+   "dettaglio": "«Hotel El Faro - hotel ad Alghero sul mare - resort Alghero sul mare»: ripete «Alghero sul mare» e supera la lunghezza che Google mostra per intero (circa 60 caratteri). Conviene un titolo più breve, con la proposta distintiva (thalasso e spa)."
+  },
+  {
+   "area": "contenuti",
+   "titolo": "Descrizione (meta description)",
+   "esito": "ok",
+   "dettaglio": "Presente e coerente con il posizionamento (resort di charme sul mare)."
+  },
+  {
+   "area": "contenuti",
+   "titolo": "Struttura dei titoli (H1, H2)",
+   "esito": "attenzione",
+   "dettaglio": "Un solo H1 («Hotel El Faro»), corretto, ma poco descrittivo: non contiene luogo né tipologia. Un solo H2 visibile nella pagina iniziale."
+  },
+  {
+   "area": "contenuti",
+   "titolo": "Testi alternativi delle immagini",
+   "esito": "attenzione",
+   "dettaglio": "Circa 11 immagini senza testo alternativo, per lo più decorative (frecce, icona di chiusura, logo, certificazioni nel piè di pagina). Le immagini principali hanno il testo alternativo."
+  },
+  {
+   "area": "internazionale",
+   "titolo": "Versioni in lingua e segnalazione a Google (hreflang)",
+   "esito": "problema",
+   "dettaglio": "Il sito ha italiano e inglese (/en/), ma nella pagina non risultano i collegamenti hreflang che indicano a Google la versione corretta per ciascun mercato."
+  },
+  {
+   "area": "internazionale",
+   "titolo": "Lingue disponibili",
+   "esito": "attenzione",
+   "dettaglio": "Solo italiano e inglese. Per i mercati prioritari di lingua tedesca e francese mancano le versioni dedicate."
+  },
+  {
+   "area": "dati strutturati",
+   "titolo": "Dati strutturati schema.org (Hotel, recensioni, indirizzo)",
+   "esito": "problema",
+   "dettaglio": "Nessun dato strutturato rilevato nella pagina iniziale. Senza di essi Google ha meno elementi per mostrare stelle, servizi, indirizzo e valutazioni nei risultati."
+  },
+  {
+   "area": "social",
+   "titolo": "Anteprime di condivisione (Open Graph)",
+   "esito": "ok",
+   "dettaglio": "Complete: titolo, descrizione, immagine 1920x1182, nome del sito, lingue it_IT ed en_GB."
+  },
+  {
+   "area": "tecnica",
+   "titolo": "Attributo di lingua della pagina (lang)",
+   "esito": "attenzione",
+   "dettaglio": "Non rilevato nel contenuto letto: da verificare nel codice."
+  },
+  {
+   "area": "tecnica",
+   "titolo": "Piattaforma",
+   "esito": "attenzione",
+   "dettaglio": "WordPress 6.7.11 con tema «startup_pro»; il numero di versione è visibile nel codice. Consigliabile nasconderlo e tenere aggiornati tema e plugin."
+  },
+  {
+   "area": "tecnica",
+   "titolo": "Velocità e compatibilità con il telefono",
+   "esito": "non verificato",
+   "dettaglio": "Non misurate in questa rilevazione."
+  },
+  {
+   "area": "tecnica",
+   "titolo": "Collegamenti interrotti",
+   "esito": "non verificato",
+   "dettaglio": "Non controllati in questa rilevazione."
+  }
+ ]
+}
