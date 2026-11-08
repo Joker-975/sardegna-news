@@ -1,0 +1,374 @@
+{
+ "aggiornato": "2026-11-08T15:38:08.285Z",
+ "istruzioni": "Elenco dei siti scelti dalla struttura. Usare solo i siti con attiva:true; i siti con origine:\"struttura\" sono stati aggiunti dalla struttura; i siti non presenti o con attiva:false non vanno consultati.",
+ "siti": [
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Aeroporti di Sardegna",
+   "url": "https://www.aeroportidisardegna.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Ryanair",
+   "url": "https://www.ryanair.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "easyJet",
+   "url": "https://www.easyjet.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Volotea",
+   "url": "https://www.volotea.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Wizz Air",
+   "url": "https://wizzair.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Eurowings",
+   "url": "https://www.eurowings.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Lufthansa",
+   "url": "https://www.lufthansa.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Vueling",
+   "url": "https://www.vueling.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Jet2",
+   "url": "https://www.jet2.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Aeroitalia",
+   "url": "https://www.aeroitalia.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "ENAC",
+   "url": "https://www.enac.gov.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Voli, aeroporti e compagnie",
+   "nome": "Eurocontrol",
+   "url": "https://www.eurocontrol.int",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Quadro internazionale e spazi aerei",
+   "nome": "IATA",
+   "url": "https://www.iata.org",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Quadro internazionale e spazi aerei",
+   "nome": "Viaggiare Sicuri (Farnesina)",
+   "url": "https://www.viaggiaresicuri.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Cambi",
+   "nome": "Banca d'Italia (tassi di cambio)",
+   "url": "https://www.bancaditalia.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Cambi",
+   "nome": "Banca centrale europea",
+   "url": "https://www.ecb.europa.eu",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Sanità e norme di viaggio",
+   "nome": "Organizzazione mondiale della sanità",
+   "url": "https://www.who.int",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Sanità e norme di viaggio",
+   "nome": "EES ed ETIAS (Unione europea)",
+   "url": "https://travel-europe.europa.eu",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "Osservatorio del Turismo della Sardegna",
+   "url": "https://osservatorio.sardegnaturismo.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "ISTAT",
+   "url": "https://www.istat.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "IstatData",
+   "url": "https://esploradati.istat.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "Ministero del Turismo",
+   "url": "https://www.ministeroturismo.gov.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "ENIT",
+   "url": "https://www.enit.it",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "UN Tourism",
+   "url": "https://www.untourism.int",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "Destatis (Germania)",
+   "url": "https://www.destatis.de",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "INSEE (Francia)",
+   "url": "https://www.insee.fr",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "ONS (Regno Unito)",
+   "url": "https://www.ons.gov.uk",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "UST (Svizzera)",
+   "url": "https://www.bfs.admin.ch",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "CBS (Paesi Bassi)",
+   "url": "https://www.cbs.nl",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "GUS (Polonia)",
+   "url": "https://stat.gov.pl",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "INE (Spagna)",
+   "url": "https://www.ine.es",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "Statistik Austria",
+   "url": "https://www.statistik.at",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "SCB (Svezia)",
+   "url": "https://www.scb.se",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "Statistics Denmark",
+   "url": "https://www.dst.dk",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "SSB (Norvegia)",
+   "url": "https://www.ssb.no",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Statistiche ufficiali e domanda",
+   "nome": "Statistics Finland",
+   "url": "https://stat.fi",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Reputazione online e profili social",
+   "nome": "Booking.com",
+   "url": "https://www.booking.com/hotel/it/elfarohotel.it.html",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Reputazione online e profili social",
+   "nome": "Expedia",
+   "url": "https://www.expedia.ie/Alghero-Hotels-El-Faro-Hotel-Spa.h997781.Hotel-Information",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Reputazione online e profili social",
+   "nome": "Google Maps",
+   "url": "https://www.google.com/maps/place/EL+Faro+Hotel/@40.5932771,8.202918,17z",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Reputazione online e profili social",
+   "nome": "Tripadvisor",
+   "url": "https://www.tripadvisor.it/Hotel_Review-g187880-d239313-Reviews-El_Faro_Hotel-Alghero_Province_of_Sassari_Sardinia.html",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Reputazione online e profili social",
+   "nome": "Facebook",
+   "url": "https://www.facebook.com/HotelElFaroAlghero/",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Reputazione online e profili social",
+   "nome": "Instagram",
+   "url": "https://www.instagram.com/elfarohotelalghero/",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Agenzie, tour operator, riviste e fiere",
+   "nome": "ILTM",
+   "url": "https://www.iltm.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Agenzie, tour operator, riviste e fiere",
+   "nome": "Virtuoso",
+   "url": "https://www.virtuoso.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  },
+  {
+   "settore": "Agenzie, tour operator, riviste e fiere",
+   "nome": "IMEX",
+   "url": "https://www.imex-frankfurt.com",
+   "nota": "",
+   "attiva": true,
+   "origine": "iniziale"
+  }
+ ]
+}
