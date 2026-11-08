@@ -137,5 +137,10 @@
    "esito": "non verificato",
    "dettaglio": "Non controllati in questa rilevazione."
   }
- ]
+ ],
+ "lingue": [
+  "it",
+  "en"
+ ],
+ "concorrenti": []
 }
