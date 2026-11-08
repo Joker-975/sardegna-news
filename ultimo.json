@@ -1,145 +1,195 @@
 {
- "generato": "2026-11-08",
- "versione": 1,
- "voci": [
-  {
-   "id": "geo-2026-11-07-sciopero-enav",
-   "data": "2026-11-07",
-   "area": "geo",
-   "gravita": "importante",
-   "titolo": "Scioperi ENAV e sciopero generale a fine novembre 2026",
-   "sintesi": "Calendario pubblicato il 28/10/2026: sciopero generale nazionale CGIL di 24 ore il 20/11, sciopero nazionale ENAV il 21/11 dalle 13 alle 17 e ENAV Malpensa 24 ore il 22/11. La fonte non cita aeroporti sardi; le date possono cambiare o essere revocate. Fuori stagione 2027, ma indicano il clima sindacale nel trasporto aereo.",
-   "mercati": [
-    "Italia"
-   ],
-   "fonti": [
+  "generato": "2026-11-08",
+  "versione": 1,
+  "voci": [
     {
-     "t": "Scioperi novembre 2026: tutte le date e i trasporti a rischio (Trend-Online)",
-     "u": "https://www.trend-online.com/2026/10/28/novembre-2026-scioperi/",
-     "quando": "28/10/2026"
-    }
-   ],
-   "azione": "Valutare se informare gli ospiti con arrivi nelle date interessate; verificare le conferme ufficiali."
-  },
-  {
-   "id": "sanita-2026-11-07-etias-senza-data",
-   "data": "2026-11-07",
-   "area": "sanita",
-   "gravita": "importante",
-   "titolo": "ETIAS: perso il riferimento al lancio nell'ultimo trimestre 2026",
-   "sintesi": "Secondo un articolo del 19/10/2026, la Commissione europea non indica più il quarto trimestre 2026 e non ha annunciato una data; l'avvio è dato come possibile in primavera o nell'ultimo trimestre 2027 (Ipotesi attribuita a 'discussioni UE', senza fonte nominata). L'EES risulta pienamente operativo da aprile 2026, con ritardi alle frontiere segnalati da A4E fino a 5 ore.",
-   "mercati": [
-    "Regno Unito",
-    "Stati Uniti"
-   ],
-   "fonti": [
-    {
-     "t": "New visa-free travel scheme for Britons has been kicked into the long grass (Majorca Daily Bulletin)",
-     "u": "https://www.majorcadailybulletin.com/news/local/2026/10/19/146693/new-visa-free-travel-scheme-for-britons-has-been-kicked-into-the-long-grass.html",
-     "quando": "19/10/2026"
-    }
-   ],
-   "azione": "Valutare l'impatto su ospiti britannici e extra-UE per la stagione 2027; verificare la pagina ufficiale della Commissione."
-  },
-  {
-   "id": "voli-2026-11-07-discover-monaco-alghero",
-   "data": "2026-11-07",
-   "area": "voli",
-   "gravita": "importante",
-   "titolo": "Discover Airlines: nuova rotta Monaco-Alghero da giugno 2027",
-   "sintesi": "Discover Airlines inserisce per la prima volta Monaco di Baviera-Alghero dal 4/06/2027, due voli settimanali (lunedì e venerdì) con Airbus A320. La rotta si aggiunge a Olbia e Cagliari già servite da Monaco.",
-   "mercati": [
-    "Germania"
-   ],
-   "fonti": [
-    {
-     "t": "Discover Airlines raddoppia la sua rete di rotte in Italia per l'estate 2027 (Italiavola)",
-     "u": "https://italiavola.com/2026/09/08/discover-airlines-raddoppia-la-sua-rete-di-rotte-in-italia-per-lestate-2027-apre-su-alghero-e-genova/",
-     "quando": "08/09/2026"
-    }
-   ],
-   "azione": "Valutare azioni verso il mercato tedesco (Baviera) per giugno-ottobre 2027."
-  },
-  {
-   "id": "voli-2026-11-07-aeroitalia-interni-2027",
-   "data": "2026-11-07",
-   "area": "voli",
-   "gravita": "info",
-   "titolo": "Aeroitalia: possibile ritorno dei voli interni Alghero-Cagliari nel 2027",
-   "sintesi": "Secondo fonti di stampa, i collegamenti Alghero-Cagliari e Olbia-Cagliari potrebbero tornare da giugno 2027, con due voli settimanali ed eventuale terzo. Notizia non confermata ufficialmente dalla compagnia.",
-   "mercati": [
-    "Italia"
-   ],
-   "fonti": [
-    {
-     "t": "Aeroitalia rilancia nel 2027 i voli interni in Sardegna (Italiavola)",
-     "u": "https://italiavola.com/2026/09/06/aeroitalia-rilancia-nel-2027-i-voli-interni-in-sardegna/",
-     "quando": "06/09/2026"
-    }
-   ],
-   "azione": "Attendere conferma ufficiale."
-  },
-  {
-   "id": "voli-2026-11-07-easyjet-cagliari-inverno",
-   "data": "2026-11-07",
-   "area": "voli",
-   "gravita": "info",
-   "titolo": "easyJet: Cagliari-Parigi Orly e Ginevra anche in inverno 2026-27",
-   "sintesi": "easyJet estende tutto l'anno Cagliari-Parigi Orly e Cagliari-Ginevra, due voli settimanali per rotta da fine ottobre 2026; si aggiungono a Basilea.",
-   "mercati": [
-    "Svizzera",
-    "Francia"
-   ],
-   "fonti": [
-    {
-     "t": "easyJet estende tutto l'anno i voli da Cagliari a Parigi Orly e Ginevra (Qualitytravel)",
-     "u": "https://www.qualitytravel.it/easyjet-estende-tutto-lanno-i-voli-da-cagliari-a-parigi-orly-e-ginevra/190769",
-     "quando": "07/07/2026"
-    }
-   ],
-   "azione": "Nessuna azione immediata; contesto sull'accessibilità svizzera e francese della Sardegna."
-  },
-  {
-   "id": "eventi-2026-11-07-ironman-alghero-2027",
-   "data": "2026-11-07",
-   "area": "eventi",
-   "gravita": "info",
-   "titolo": "Ironman 70.3 Alghero: 30 maggio 2027",
-   "sintesi": "La prossima edizione è fissata per domenica 30/05/2027 (data confermata su Finishers e da Unione Sarda). Altri eventi 2027 (Tri-Alghero, Cavalcata Sarda, Monumenti Aperti, Half Marathon): date non reperite.",
-   "mercati": [],
-   "fonti": [
-    {
-     "t": "Ironman, a resounding success in Alghero: see you in 2027 (Unione Sarda)",
-     "u": "https://www.unionesarda.it/en/ironman-a-resounding-success-in-alghero-see-you-in-2027-qpzdr5qe",
-     "quando": "14/06/2026"
+      "id": "voli-2026-11-08-ryanair-inverno-2026",
+      "data": "2026-11-08",
+      "area": "voli",
+      "gravita": "importante",
+      "titolo": "Ryanair: inverno 2026 con -15% ad Alghero e -50% a Olbia",
+      "sintesi": "Il 21/10/2026 Ryanair ha annunciato per l'inverno 2026 una riduzione del 15% dell'offerta ad Alghero e del 50% a Olbia, con la perdita di una rotta tra i due scali; a Cagliari invece cresce, con una nuova rotta per Forlì e più voli per Milano Malpensa e Venezia. Secondo la compagnia la sospensione dell'addizionale municipale decisa dalla Regione per gli inverni 2026 e 2027 è arrivata troppo tardi per cambiare il programma invernale. La compagnia lega un eventuale rilancio (base nel Nord Sardegna, 4 aerei) all'abolizione dell'addizionale per l'intero anno. Dati dichiarati dalla compagnia e riportati da un sito specializzato; non sono indicati posti né frequenze.",
+      "mercati": [],
+      "fonti": [
+        {
+          "t": "Italiavola: Ryanair annuncia riduzioni ad Alghero e Olbia per l'inverno 2026",
+          "u": "https://italiavola.com/2026/10/21/ryanair-annuncia-riduzioni-ad-alghero-e-olbia-per-linverno-2026-50-su-olbia/",
+          "quando": "21/10/2026"
+        }
+      ],
+      "azione": "Valutare l'effetto sulla stagione di spalla e seguire se Ryanair conferma o rivede il programma estate 2027 dopo la decisione sull'addizionale municipale."
     },
     {
-     "t": "Ironman 70.3 Alghero 2027 (Finishers)",
-     "u": "https://www.finishers.com/en/event/ironman-70-3-alghero",
-     "quando": "consultato 07/11/2026"
-    }
-   ],
-   "azione": "Valutare impatto su disponibilità e quiete nel periodo 28-31 maggio 2027."
-  },
-  {
-   "id": "domanda-2026-11-07-stat-regione-8mesi",
-   "data": "2026-11-07",
-   "area": "domanda",
-   "gravita": "info",
-   "titolo": "Nuovi dati ufficiali: Regione Sardegna, primi 8 mesi 2026",
-   "sintesi": "Presentati il 15/10/2026 dall'assessore regionale al Turismo: presenze 13,83 milioni (+4,58%), arrivi oltre 3,32 milioni (+3,98%), permanenza 4,16 notti (4,14 nel 2025), spesa Mastercard gen-set circa +10%, passeggeri aeroporti sardi gen-set oltre 10 milioni (+9,25%), internazionali +18,96%. Nuovo volo United Newark-Olbia da maggio 2027. Nessun dato per Sassari/Alghero né per paese; variazioni sotto il 10%.",
-   "mercati": [
-    "Italia",
-    "Stati Uniti"
-   ],
-   "fonti": [
+      "id": "cambio-2026-11-08-tassi-base",
+      "data": "2026-11-08",
+      "area": "cambio",
+      "gravita": "info",
+      "titolo": "Cambi di riferimento al 06/11/2026 (base per i confronti)",
+      "sintesi": "Tassi di riferimento del 06/11/2026 per 1 euro: GBP 0,8342, CHF 0,9143, PLN 4,3925, USD 1,1165, SEK 11,026, DKK 7,4752, NOK 10,526, CZK 24,35, HUF 363,9, RON 5,3403, BRL 6,1449. Non c'erano voci precedenti con tassi: questi valori diventano il riferimento per segnalare variazioni oltre il 3%.",
+      "mercati": [],
+      "fonti": [
+        {
+          "t": "Banque de France: parità giornaliere (tassi di riferimento BCE)",
+          "u": "https://www.banque-france.fr/en/statistics/rates-and-prices/exchange-rates-daily-parities-2026-11-06",
+          "quando": "06/11/2026"
+        }
+      ],
+      "azione": "Nessuna azione: riferimento per le prossime rilevazioni.",
+      "cambi": {
+        "data": "2026-11-06",
+        "tassi": {
+          "GBP": 0.8342,
+          "CHF": 0.9143,
+          "PLN": 4.3925,
+          "USD": 1.1165,
+          "SEK": 11.026,
+          "DKK": 7.4752,
+          "NOK": 10.526,
+          "CZK": 24.35,
+          "HUF": 363.9,
+          "RON": 5.3403,
+          "BRL": 6.1449
+        }
+      }
+    },
     {
-     "t": "Sardegna, cresce il turismo: +4,6% nei primi 8 mesi dell'anno (Unione Sarda)",
-     "u": "https://www.unionesarda.it/economia/sardegna-cresce-il-turismo-4-6-nei-primi-8-mesi-dellanno-dc29g0d2",
-     "quando": "15/10/2026"
+      "id": "geo-2026-11-07-sciopero-enav",
+      "data": "2026-11-07",
+      "area": "geo",
+      "gravita": "importante",
+      "titolo": "Scioperi ENAV e sciopero generale a fine novembre 2026",
+      "sintesi": "Calendario pubblicato il 28/10/2026: sciopero generale nazionale CGIL di 24 ore il 20/11, sciopero nazionale ENAV il 21/11 dalle 13 alle 17 e ENAV Malpensa 24 ore il 22/11. La fonte non cita aeroporti sardi; le date possono cambiare o essere revocate. Fuori stagione 2027, ma indicano il clima sindacale nel trasporto aereo.",
+      "mercati": [
+        "Italia"
+      ],
+      "fonti": [
+        {
+          "t": "Scioperi novembre 2026: tutte le date e i trasporti a rischio (Trend-Online)",
+          "u": "https://www.trend-online.com/2026/10/28/novembre-2026-scioperi/",
+          "quando": "28/10/2026"
+        }
+      ],
+      "azione": "Valutare se informare gli ospiti con arrivi nelle date interessate; verificare le conferme ufficiali."
+    },
+    {
+      "id": "sanita-2026-11-07-etias-senza-data",
+      "data": "2026-11-07",
+      "area": "sanita",
+      "gravita": "importante",
+      "titolo": "ETIAS: perso il riferimento al lancio nell'ultimo trimestre 2026",
+      "sintesi": "Secondo un articolo del 19/10/2026, la Commissione europea non indica più il quarto trimestre 2026 e non ha annunciato una data; l'avvio è dato come possibile in primavera o nell'ultimo trimestre 2027 (Ipotesi attribuita a 'discussioni UE', senza fonte nominata). L'EES risulta pienamente operativo da aprile 2026, con ritardi alle frontiere segnalati da A4E fino a 5 ore.",
+      "mercati": [
+        "Regno Unito",
+        "Stati Uniti"
+      ],
+      "fonti": [
+        {
+          "t": "New visa-free travel scheme for Britons has been kicked into the long grass (Majorca Daily Bulletin)",
+          "u": "https://www.majorcadailybulletin.com/news/local/2026/10/19/146693/new-visa-free-travel-scheme-for-britons-has-been-kicked-into-the-long-grass.html",
+          "quando": "19/10/2026"
+        }
+      ],
+      "azione": "Valutare l'impatto su ospiti britannici e extra-UE per la stagione 2027; verificare la pagina ufficiale della Commissione."
+    },
+    {
+      "id": "voli-2026-11-07-discover-monaco-alghero",
+      "data": "2026-11-07",
+      "area": "voli",
+      "gravita": "importante",
+      "titolo": "Discover Airlines: nuova rotta Monaco-Alghero da giugno 2027",
+      "sintesi": "Discover Airlines inserisce per la prima volta Monaco di Baviera-Alghero dal 4/06/2027, due voli settimanali (lunedì e venerdì) con Airbus A320. La rotta si aggiunge a Olbia e Cagliari già servite da Monaco.",
+      "mercati": [
+        "Germania"
+      ],
+      "fonti": [
+        {
+          "t": "Discover Airlines raddoppia la sua rete di rotte in Italia per l'estate 2027 (Italiavola)",
+          "u": "https://italiavola.com/2026/09/08/discover-airlines-raddoppia-la-sua-rete-di-rotte-in-italia-per-lestate-2027-apre-su-alghero-e-genova/",
+          "quando": "08/09/2026"
+        }
+      ],
+      "azione": "Valutare azioni verso il mercato tedesco (Baviera) per giugno-ottobre 2027."
+    },
+    {
+      "id": "voli-2026-11-07-aeroitalia-interni-2027",
+      "data": "2026-11-07",
+      "area": "voli",
+      "gravita": "info",
+      "titolo": "Aeroitalia: possibile ritorno dei voli interni Alghero-Cagliari nel 2027",
+      "sintesi": "Secondo fonti di stampa, i collegamenti Alghero-Cagliari e Olbia-Cagliari potrebbero tornare da giugno 2027, con due voli settimanali ed eventuale terzo. Notizia non confermata ufficialmente dalla compagnia.",
+      "mercati": [
+        "Italia"
+      ],
+      "fonti": [
+        {
+          "t": "Aeroitalia rilancia nel 2027 i voli interni in Sardegna (Italiavola)",
+          "u": "https://italiavola.com/2026/09/06/aeroitalia-rilancia-nel-2027-i-voli-interni-in-sardegna/",
+          "quando": "06/09/2026"
+        }
+      ],
+      "azione": "Attendere conferma ufficiale."
+    },
+    {
+      "id": "voli-2026-11-07-easyjet-cagliari-inverno",
+      "data": "2026-11-07",
+      "area": "voli",
+      "gravita": "info",
+      "titolo": "easyJet: Cagliari-Parigi Orly e Ginevra anche in inverno 2026-27",
+      "sintesi": "easyJet estende tutto l'anno Cagliari-Parigi Orly e Cagliari-Ginevra, due voli settimanali per rotta da fine ottobre 2026; si aggiungono a Basilea.",
+      "mercati": [
+        "Svizzera",
+        "Francia"
+      ],
+      "fonti": [
+        {
+          "t": "easyJet estende tutto l'anno i voli da Cagliari a Parigi Orly e Ginevra (Qualitytravel)",
+          "u": "https://www.qualitytravel.it/easyjet-estende-tutto-lanno-i-voli-da-cagliari-a-parigi-orly-e-ginevra/190769",
+          "quando": "07/07/2026"
+        }
+      ],
+      "azione": "Nessuna azione immediata; contesto sull'accessibilità svizzera e francese della Sardegna."
+    },
+    {
+      "id": "eventi-2026-11-07-ironman-alghero-2027",
+      "data": "2026-11-07",
+      "area": "eventi",
+      "gravita": "info",
+      "titolo": "Ironman 70.3 Alghero: 30 maggio 2027",
+      "sintesi": "La prossima edizione è fissata per domenica 30/05/2027 (data confermata su Finishers e da Unione Sarda). Altri eventi 2027 (Tri-Alghero, Cavalcata Sarda, Monumenti Aperti, Half Marathon): date non reperite.",
+      "mercati": [],
+      "fonti": [
+        {
+          "t": "Ironman, a resounding success in Alghero: see you in 2027 (Unione Sarda)",
+          "u": "https://www.unionesarda.it/en/ironman-a-resounding-success-in-alghero-see-you-in-2027-qpzdr5qe",
+          "quando": "14/06/2026"
+        },
+        {
+          "t": "Ironman 70.3 Alghero 2027 (Finishers)",
+          "u": "https://www.finishers.com/en/event/ironman-70-3-alghero",
+          "quando": "consultato 07/11/2026"
+        }
+      ],
+      "azione": "Valutare impatto su disponibilità e quiete nel periodo 28-31 maggio 2027."
+    },
+    {
+      "id": "domanda-2026-11-07-stat-regione-8mesi",
+      "data": "2026-11-07",
+      "area": "domanda",
+      "gravita": "info",
+      "titolo": "Nuovi dati ufficiali: Regione Sardegna, primi 8 mesi 2026",
+      "sintesi": "Presentati il 15/10/2026 dall'assessore regionale al Turismo: presenze 13,83 milioni (+4,58%), arrivi oltre 3,32 milioni (+3,98%), permanenza 4,16 notti (4,14 nel 2025), spesa Mastercard gen-set circa +10%, passeggeri aeroporti sardi gen-set oltre 10 milioni (+9,25%), internazionali +18,96%. Nuovo volo United Newark-Olbia da maggio 2027. Nessun dato per Sassari/Alghero né per paese; variazioni sotto il 10%.",
+      "mercati": [
+        "Italia",
+        "Stati Uniti"
+      ],
+      "fonti": [
+        {
+          "t": "Sardegna, cresce il turismo: +4,6% nei primi 8 mesi dell'anno (Unione Sarda)",
+          "u": "https://www.unionesarda.it/economia/sardegna-cresce-il-turismo-4-6-nei-primi-8-mesi-dellanno-dc29g0d2",
+          "quando": "15/10/2026"
+        }
+      ],
+      "azione": "Aggiornare la pagina Statistiche ufficiali dell'app e i profili dei viaggiatori dei mercati"
     }
-   ],
-   "azione": "Aggiornare la pagina Statistiche ufficiali dell'app e i profili dei viaggiatori dei mercati"
-  }
- ]
+  ]
 }
