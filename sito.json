@@ -1,7 +1,7 @@
 {
  "aggiornato": "2026-11-10",
  "sito": "https://www.elfarohotel.it/",
- "ambito": "Lette con 1 lettura ciascuna: pagina iniziale, 9 pagine principali in italiano e 10 versioni inglesi, robots.txt, sitemap_index.xml e 3 sotto-sitemap; Expedia per nome, indirizzo e telefono. Booking.com bloccato (verifica anti-robot). Codice HTML (lang, hreflang, JSON-LD) non esposto dallo strumento di lettura. Testi integrali non estratti: la fonte non consente citazioni complete, voce testi omessa.",
+ "ambito": "Lette con 1 lettura ciascuna: pagina iniziale, 9 pagine principali in italiano e 10 versioni inglesi, robots.txt, sitemap_index.xml e 3 sotto-sitemap; Expedia per nome, indirizzo e telefono. Booking.com bloccato (verifica anti-robot). Codice HTML (lang, hreflang, JSON-LD) non esposto dallo strumento di lettura. Testi principali (PASSO 2 ter): riletti oggi IT/EN di 10 pagine, ma lo strumento di lettura limita le citazioni a 125 caratteri e non restituisce il testo integrale; voce testi omessa per non inventare né parafrasare.",
  "lingue": [
   "it",
   "en"
