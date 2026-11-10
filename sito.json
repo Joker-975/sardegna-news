@@ -1,8 +1,16 @@
 {
- "aggiornato": "2026-11-08",
+ "aggiornato": "2026-11-10",
  "sito": "https://www.elfarohotel.it/",
- "ambito": "Pagina iniziale (rilevazione di avvio, da completare con il controllo del cloud)",
+ "ambito": "Lette con 1 lettura ciascuna: pagina iniziale, 9 pagine principali in italiano e le versioni inglesi corrispondenti, robots.txt, sitemap.xml; Expedia e pagina Contatti per nome, indirizzo e telefono. Booking.com bloccato (verifica anti-robot). Codice HTML (lang, hreflang, dati strutturati) non visibile nelle letture. Testi integrali non estratti: fonte non consente citazioni complete.",
+ "lingue": [
+  "it",
+  "en"
+ ],
  "pagine": [
+  {
+   "nome": "Pagina iniziale",
+   "url": "/"
+  },
   {
    "nome": "Hotel El Faro",
    "url": "/hotel-el-faro/"
@@ -38,6 +46,10 @@
   {
    "nome": "Contatti",
    "url": "/contatti/"
+  },
+  {
+   "nome": "Versione inglese",
+   "url": "/en/"
   }
  ],
  "controlli": [
@@ -45,102 +57,579 @@
    "area": "indicizzazione",
    "titolo": "Tag canonical",
    "esito": "ok",
-   "dettaglio": "Presente nella pagina iniziale: https://www.elfarohotel.it/."
+   "dettaglio": "Presente e autoreferenziale in tutte le pagine lette, italiane e inglesi: evita duplicazioni tra versioni."
   },
   {
    "area": "indicizzazione",
    "titolo": "Istruzioni ai motori di ricerca (meta robots)",
    "esito": "ok",
-   "dettaglio": "index, follow e anteprime immagini e testo senza limiti: la pagina può essere indicizzata."
+   "dettaglio": "Tutte le pagine lette riportano index, follow e anteprime senza limiti: possono essere indicizzate."
   },
   {
    "area": "indicizzazione",
    "titolo": "File robots.txt",
-   "esito": "non verificato",
-   "dettaglio": "Non leggibile in questa rilevazione: verrà controllato dal cloud."
+   "esito": "ok",
+   "dettaglio": "Presente (Yoast), nessun blocco (Disallow vuoto) e rimando alla mappa sitemap_index.xml."
   },
   {
    "area": "indicizzazione",
    "titolo": "Mappa del sito (sitemap.xml)",
-   "esito": "non verificato",
-   "dettaglio": "Non leggibile in questa rilevazione: verrà controllato dal cloud. Serve a segnalare a Google tutte le pagine e le versioni in lingua."
+   "esito": "attenzione",
+   "dettaglio": "Presente, 59 indirizzi (17 in /en/, 3 PDF), ma senza annotazioni hreflang e con data di modifica unica (02/12/2025). Conviene aggiornarla e annotare le lingue."
   },
   {
    "area": "contenuti",
    "titolo": "Titolo della pagina (title)",
    "esito": "attenzione",
-   "dettaglio": "«Hotel El Faro - hotel ad Alghero sul mare - resort Alghero sul mare»: ripete «Alghero sul mare» e supera la lunghezza che Google mostra per intero (circa 60 caratteri). Conviene un titolo più breve, con la proposta distintiva (thalasso e spa)."
+   "dettaglio": "Titolo della pagina iniziale ripetitivo («Alghero sul mare» due volte) e oltre i 60 caratteri; gli altri titoli sono coerenti. Conviene accorciarlo, evidenziando thalasso e spa."
   },
   {
    "area": "contenuti",
    "titolo": "Descrizione (meta description)",
    "esito": "ok",
-   "dettaglio": "Presente e coerente con il posizionamento (resort di charme sul mare)."
+   "dettaglio": "Presente in tutte le pagine lette, in italiano e in inglese, coerente con il posizionamento."
   },
   {
    "area": "contenuti",
    "titolo": "Struttura dei titoli (H1, H2)",
    "esito": "attenzione",
-   "dettaglio": "Un solo H1 («Hotel El Faro»), corretto, ma poco descrittivo: non contiene luogo né tipologia. Un solo H2 visibile nella pagina iniziale."
+   "dettaglio": "Un solo H1 per pagina, ma quello della pagina iniziale («Hotel El Faro») è poco descrittivo; diverse pagine prive di H2. In inglese l'H2 di Meeting è rimasto in italiano."
   },
   {
    "area": "contenuti",
    "titolo": "Testi alternativi delle immagini",
    "esito": "attenzione",
-   "dettaglio": "Circa 11 immagini senza testo alternativo, per lo più decorative (frecce, icona di chiusura, logo, certificazioni nel piè di pagina). Le immagini principali hanno il testo alternativo."
+   "dettaglio": "Nella rilevazione precedente circa 11 immagini decorative senza testo alternativo; in questa lettura l'attributo non è stato riletto. Completare i testi alternativi."
+  },
+  {
+   "area": "contenuti",
+   "titolo": "Titoli e descrizioni duplicati tra pagine",
+   "esito": "ok",
+   "dettaglio": "Titoli e descrizioni delle pagine lette risultano distinti tra loro, in entrambe le lingue."
+  },
+  {
+   "area": "contenuti",
+   "titolo": "Temi e parole chiave del sito",
+   "esito": "ok",
+   "dettaglio": "Thalasso e spa, vacanze sportive, esperienze ed escursioni, meeting e matrimoni hanno pagine con testi propri in italiano e in inglese; il benessere è ben presidiato."
   },
   {
    "area": "internazionale",
    "titolo": "Versioni in lingua e segnalazione a Google (hreflang)",
-   "esito": "problema",
-   "dettaglio": "Il sito ha italiano e inglese (/en/), ma nella pagina non risultano i collegamenti hreflang che indicano a Google la versione corretta per ciascun mercato."
+   "esito": "attenzione",
+   "dettaglio": "Versioni IT/EN reciproche tramite selettore lingua; hreflang assenti nella sitemap e non rilevati in precedenza nel codice. Verificare nel codice e aggiungerli."
   },
   {
    "area": "internazionale",
    "titolo": "Lingue disponibili",
    "esito": "attenzione",
-   "dettaglio": "Solo italiano e inglese. Per i mercati prioritari di lingua tedesca e francese mancano le versioni dedicate."
+   "dettaglio": "Solo italiano e inglese; i concorrenti principali offrono anche tedesco, francese o spagnolo. Valutare versioni per i mercati prioritari."
   },
   {
    "area": "dati strutturati",
    "titolo": "Dati strutturati schema.org (Hotel, recensioni, indirizzo)",
    "esito": "problema",
-   "dettaglio": "Nessun dato strutturato rilevato nella pagina iniziale. Senza di essi Google ha meno elementi per mostrare stelle, servizi, indirizzo e valutazioni nei risultati."
+   "dettaglio": "Nella rilevazione precedente non risultavano dati strutturati; in questa lettura non verificabili. Aggiungere Hotel, indirizzo e valutazioni per migliorare la presenza nei risultati."
   },
   {
-   "area": "social",
-   "titolo": "Anteprime di condivisione (Open Graph)",
+   "area": "dati strutturati",
+   "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
+   "esito": "attenzione",
+   "dettaglio": "Dodici tipologie di camera con superficie e ospiti nel testo, ma nessun prezzo o offerta visibile; schema Offer/Room non verificabile. Prezzi e offerte restano nel motore di prenotazione."
+  },
+  {
+   "area": "ricerca locale",
+   "titolo": "Coerenza di nome, indirizzo e telefono",
+   "esito": "attenzione",
+   "dettaglio": "Sito: «Hotel El Faro»/«El Faro Alghero», Via Porto Conte 52; Expedia: «El Faro Hotel & Spa», senza «Via». Booking.com non verificato (verifica anti-robot); Tripadvisor e Maps non letti."
+  },
+  {
+   "area": "prenotazione",
+   "titolo": "Accesso alla prenotazione dal sito",
    "esito": "ok",
-   "dettaglio": "Complete: titolo, descrizione, immagine 1920x1182, nome del sito, lingue it_IT ed en_GB."
+   "dettaglio": "Pulsante «Prenota»/«Book now» in tutte le pagine lette, verso booking.elfarohotel.it nella lingua corretta: un solo passaggio dalla pagina iniziale."
+  },
+  {
+   "area": "prenotazione",
+   "titolo": "Connessione sicura (https)",
+   "esito": "ok",
+   "dettaglio": "Tutte le pagine lette sono servite in https, compreso il motore di prenotazione."
+  },
+  {
+   "area": "prenotazione",
+   "titolo": "Informativa sulla privacy e cookie",
+   "esito": "ok",
+   "dettaglio": "Informativa privacy e cookie collegate (iubenda), con versioni distinte per italiano e inglese."
+  },
+  {
+   "area": "prenotazione",
+   "titolo": "Contatti e orari visibili",
+   "esito": "attenzione",
+   "dettaglio": "Indirizzo, due telefoni e quattro e-mail per reparto ben visibili; non risultano orari della reception o di apertura."
+  },
+  {
+   "area": "fiducia",
+   "titolo": "Recensioni e valutazioni mostrate sul sito",
+   "esito": "attenzione",
+   "dettaglio": "Nessuna recensione o valutazione visibile nelle pagine lette, mentre le piattaforme ne riportano molte (Expedia: 9,0 su circa 1.000). Valutare un riquadro con le valutazioni."
+  },
+  {
+   "area": "fiducia",
+   "titolo": "Certificazioni, premi e riconoscimenti",
+   "esito": "ok",
+   "dettaglio": "Nel piè di pagina logo IQNet e certificato ISO 13009:2018, oltre al marchio della Rete dei Parchi; collegati ai documenti."
+  },
+  {
+   "area": "fiducia",
+   "titolo": "Politica di cancellazione e condizioni chiare",
+   "esito": "attenzione",
+   "dettaglio": "Politica di cancellazione non trovata nelle pagine lette. Renderla visibile prima della prenotazione, anche in inglese."
   },
   {
    "area": "tecnica",
    "titolo": "Attributo di lingua della pagina (lang)",
-   "esito": "attenzione",
-   "dettaglio": "Non rilevato nel contenuto letto: da verificare nel codice."
-  },
-  {
-   "area": "tecnica",
-   "titolo": "Piattaforma",
-   "esito": "attenzione",
-   "dettaglio": "WordPress 6.7.11 con tema «startup_pro»; il numero di versione è visibile nel codice. Consigliabile nasconderlo e tenere aggiornati tema e plugin."
-  },
-  {
-   "area": "tecnica",
-   "titolo": "Velocità e compatibilità con il telefono",
    "esito": "non verificato",
-   "dettaglio": "Non misurate in questa rilevazione."
+   "dettaglio": "Attributo non visibile nella lettura del contenuto; nella rilevazione precedente non era rilevato. Verificare nel codice, in italiano e in inglese."
+  },
+  {
+   "area": "tecnica",
+   "titolo": "Anteprime di condivisione (Open Graph)",
+   "esito": "ok",
+   "dettaglio": "Complete in italiano e inglese: titolo, descrizione, immagine 1920x1182, indirizzo, lingue it_IT ed en_GB."
+  },
+  {
+   "area": "tecnica",
+   "titolo": "Piattaforma e versione esposta",
+   "esito": "attenzione",
+   "dettaglio": "WordPress 6.7.10 con tema «startup_pro»; la versione è visibile nel codice. Nasconderla e tenere aggiornati tema e plugin."
   },
   {
    "area": "tecnica",
    "titolo": "Collegamenti interrotti",
    "esito": "non verificato",
-   "dettaglio": "Non controllati in questa rilevazione."
+   "dettaglio": "Nessun collegamento interrotto notato nelle pagine lette; non è stato eseguito un controllo sistematico."
+  },
+  {
+   "area": "tecnica",
+   "titolo": "Velocità e compatibilità con il telefono",
+   "esito": "attenzione",
+   "dettaglio": "Meta viewport presente. Caricamento differito e dimensioni delle immagini non verificati; nessun punteggio misurato."
   }
  ],
- "lingue": [
-  "it",
-  "en"
- ],
- "concorrenti": []
+ "testi": [],
+ "concorrenti": [
+  {
+   "nome": "Hotel dei Pini",
+   "sito": "https://www.hoteldeipini.it/",
+   "lingue": [
+    "it",
+    "en",
+    "de"
+   ],
+   "controlli": [
+    {
+     "titolo": "Tag canonical",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Istruzioni ai motori di ricerca (meta robots)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "File robots.txt",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Mappa del sito (sitemap.xml)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Titolo della pagina (title)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Descrizione (meta description)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Struttura dei titoli (H1, H2)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Testi alternativi delle immagini",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Titoli e descrizioni duplicati tra pagine",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Temi e parole chiave del sito",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Versioni in lingua e segnalazione a Google (hreflang)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Lingue disponibili",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Dati strutturati schema.org (Hotel, recensioni, indirizzo)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Accesso alla prenotazione dal sito",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Connessione sicura (https)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Informativa sulla privacy e cookie",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Contatti e orari visibili",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Attributo di lingua della pagina (lang)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Anteprime di condivisione (Open Graph)",
+     "esito": "attenzione"
+    },
+    {
+     "titolo": "Piattaforma e versione esposta",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Collegamenti interrotti",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Velocità e compatibilità con il telefono",
+     "esito": "ok"
+    }
+   ]
+  },
+  {
+   "nome": "Hotel Punta Negra",
+   "sito": "https://www.hotelpuntanegra.it/",
+   "lingue": [
+    "it",
+    "en",
+    "fr",
+    "de",
+    "es"
+   ],
+   "controlli": [
+    {
+     "titolo": "Tag canonical",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Istruzioni ai motori di ricerca (meta robots)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "File robots.txt",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Mappa del sito (sitemap.xml)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Titolo della pagina (title)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Descrizione (meta description)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Struttura dei titoli (H1, H2)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Testi alternativi delle immagini",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Titoli e descrizioni duplicati tra pagine",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Temi e parole chiave del sito",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Versioni in lingua e segnalazione a Google (hreflang)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Lingue disponibili",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Dati strutturati schema.org (Hotel, recensioni, indirizzo)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Accesso alla prenotazione dal sito",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Connessione sicura (https)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Informativa sulla privacy e cookie",
+     "esito": "attenzione"
+    },
+    {
+     "titolo": "Contatti e orari visibili",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Attributo di lingua della pagina (lang)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Anteprime di condivisione (Open Graph)",
+     "esito": "attenzione"
+    },
+    {
+     "titolo": "Piattaforma e versione esposta",
+     "esito": "attenzione"
+    },
+    {
+     "titolo": "Collegamenti interrotti",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Velocità e compatibilità con il telefono",
+     "esito": "ok"
+    }
+   ]
+  },
+  {
+   "nome": "Villa Las Tronas Hotel & Spa",
+   "sito": "https://www.villalastronas.it/",
+   "lingue": [],
+   "controlli": [
+    {
+     "titolo": "Tag canonical",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Istruzioni ai motori di ricerca (meta robots)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "File robots.txt",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Mappa del sito (sitemap.xml)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Titolo della pagina (title)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Descrizione (meta description)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Struttura dei titoli (H1, H2)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Testi alternativi delle immagini",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Titoli e descrizioni duplicati tra pagine",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Temi e parole chiave del sito",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Versioni in lingua e segnalazione a Google (hreflang)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Lingue disponibili",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Dati strutturati schema.org (Hotel, recensioni, indirizzo)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Accesso alla prenotazione dal sito",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Connessione sicura (https)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Informativa sulla privacy e cookie",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Contatti e orari visibili",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Attributo di lingua della pagina (lang)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Anteprime di condivisione (Open Graph)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Piattaforma e versione esposta",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Collegamenti interrotti",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Velocità e compatibilità con il telefono",
+     "esito": "non verificato"
+    }
+   ]
+  },
+  {
+   "nome": "SMY Carlos V",
+   "sito": "https://www.smyhotels.com/en/smy-carlos-v/",
+   "lingue": [
+    "en",
+    "es",
+    "de",
+    "pt",
+    "fr",
+    "it"
+   ],
+   "controlli": [
+    {
+     "titolo": "Tag canonical",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Istruzioni ai motori di ricerca (meta robots)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "File robots.txt",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Mappa del sito (sitemap.xml)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Titolo della pagina (title)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Descrizione (meta description)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Struttura dei titoli (H1, H2)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Testi alternativi delle immagini",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Titoli e descrizioni duplicati tra pagine",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Temi e parole chiave del sito",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Versioni in lingua e segnalazione a Google (hreflang)",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Lingue disponibili",
+     "esito": "ok"
+    },
+    {
+     "titolo": "Dati strutturati schema.org (Hotel, recensioni, indirizzo)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Accesso alla prenotazione dal sito",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Connessione sicura (https)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Informativa sulla privacy e cookie",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Contatti e orari visibili",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Attributo di lingua della pagina (lang)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Anteprime di condivisione (Open Graph)",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Piattaforma e versione esposta",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Collegamenti interrotti",
+     "esito": "non verificato"
+    },
+    {
+     "titolo": "Velocità e compatibilità con il telefono",
+     "esito": "non verificato"
+    }
+   ]
+  }
+ ]
 }
