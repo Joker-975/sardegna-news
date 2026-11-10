@@ -1,7 +1,7 @@
 {
  "aggiornato": "2026-11-10",
  "sito": "https://www.elfarohotel.it/",
- "ambito": "Lette con 1 lettura ciascuna: pagina iniziale, 9 pagine principali in italiano e le versioni inglesi corrispondenti, robots.txt, sitemap.xml; Expedia e pagina Contatti per nome, indirizzo e telefono. Booking.com bloccato (verifica anti-robot). Codice HTML (lang, hreflang, dati strutturati) non visibile nelle letture. Testi integrali non estratti: fonte non consente citazioni complete.",
+ "ambito": "Lette con 1 lettura ciascuna: pagina iniziale, 9 pagine principali in italiano e 10 versioni inglesi, robots.txt, sitemap_index.xml e 3 sotto-sitemap; Expedia per nome, indirizzo e telefono. Booking.com bloccato (verifica anti-robot). Codice HTML (lang, hreflang, JSON-LD) non esposto dallo strumento di lettura. Testi integrali non estratti: la fonte non consente citazioni complete, voce testi omessa.",
  "lingue": [
   "it",
   "en"
@@ -75,7 +75,7 @@
    "area": "indicizzazione",
    "titolo": "Mappa del sito (sitemap.xml)",
    "esito": "attenzione",
-   "dettaglio": "Presente, 59 indirizzi (17 in /en/, 3 PDF), ma senza annotazioni hreflang e con data di modifica unica (02/12/2025). Conviene aggiornarla e annotare le lingue."
+   "dettaglio": "Indice con 4 sotto-sitemap; 78 URL letti in 3 (39 in /en/), date di modifica variabili, ma senza annotazioni hreflang. Percorso anomalo /cioccolateria/ nelle categorie: annotare le lingue e verificarlo."
   },
   {
    "area": "contenuti",
@@ -99,7 +99,7 @@
    "area": "contenuti",
    "titolo": "Testi alternativi delle immagini",
    "esito": "attenzione",
-   "dettaglio": "Nella rilevazione precedente circa 11 immagini decorative senza testo alternativo; in questa lettura l'attributo non è stato riletto. Completare i testi alternativi."
+   "dettaglio": "Nelle letture compaiono immagini con testo alternativo vuoto (frecce dei caroselli, icone di superficie e ospiti, segnaposto video). Il codice non è integralmente visibile: verificare e completare."
   },
   {
    "area": "contenuti",
@@ -128,20 +128,20 @@
   {
    "area": "dati strutturati",
    "titolo": "Dati strutturati schema.org (Hotel, recensioni, indirizzo)",
-   "esito": "problema",
-   "dettaglio": "Nella rilevazione precedente non risultavano dati strutturati; in questa lettura non verificabili. Aggiungere Hotel, indirizzo e valutazioni per migliorare la presenza nei risultati."
+   "esito": "non verificato",
+   "dettaglio": "I blocchi JSON-LD non sono esposti dallo strumento di lettura; in precedenza non risultavano. Verificare con un test dei risultati avanzati e aggiungere Hotel, indirizzo e valutazioni."
   },
   {
    "area": "dati strutturati",
    "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
    "esito": "attenzione",
-   "dettaglio": "Dodici tipologie di camera con superficie e ospiti nel testo, ma nessun prezzo o offerta visibile; schema Offer/Room non verificabile. Prezzi e offerte restano nel motore di prenotazione."
+   "dettaglio": "Dodici tipologie di camera con superficie e ospiti; trattamenti spa con prezzi (50-95 euro) solo nel modulo, non in markup verificato. Offerte e tariffe restano nel motore di prenotazione."
   },
   {
    "area": "ricerca locale",
    "titolo": "Coerenza di nome, indirizzo e telefono",
    "esito": "attenzione",
-   "dettaglio": "Sito: «Hotel El Faro»/«El Faro Alghero», Via Porto Conte 52; Expedia: «El Faro Hotel & Spa», senza «Via». Booking.com non verificato (verifica anti-robot); Tripadvisor e Maps non letti."
+   "dettaglio": "Sito: «Hotel El Faro»/«El Faro Alghero», Via Porto Conte 52; Expedia: «El Faro Hotel & Spa», «Porto Conte, 52», telefono assente. Booking.com bloccato; Tripadvisor e Maps non letti."
   },
   {
    "area": "prenotazione",
@@ -165,13 +165,13 @@
    "area": "prenotazione",
    "titolo": "Contatti e orari visibili",
    "esito": "attenzione",
-   "dettaglio": "Indirizzo, due telefoni e quattro e-mail per reparto ben visibili; non risultano orari della reception o di apertura."
+   "dettaglio": "Indirizzo, due telefoni e quattro e-mail per reparto visibili in pagina Contatti; nessun orario di reception o di apertura. Aggiungerli."
   },
   {
    "area": "fiducia",
    "titolo": "Recensioni e valutazioni mostrate sul sito",
    "esito": "attenzione",
-   "dettaglio": "Nessuna recensione o valutazione visibile nelle pagine lette, mentre le piattaforme ne riportano molte (Expedia: 9,0 su circa 1.000). Valutare un riquadro con le valutazioni."
+   "dettaglio": "Nessuna valutazione visibile nelle pagine lette, mentre Expedia riporta 9,0 su 10 con circa 1.000 recensioni. Valutare un riquadro con le valutazioni verificate."
   },
   {
    "area": "fiducia",
@@ -233,15 +233,15 @@
     },
     {
      "titolo": "Istruzioni ai motori di ricerca (meta robots)",
-     "esito": "ok"
+     "esito": "non verificato"
     },
     {
      "titolo": "File robots.txt",
-     "esito": "ok"
+     "esito": "non verificato"
     },
     {
      "titolo": "Mappa del sito (sitemap.xml)",
-     "esito": "ok"
+     "esito": "non verificato"
     },
     {
      "titolo": "Titolo della pagina (title)",
@@ -281,7 +281,7 @@
     },
     {
      "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
-     "esito": "non verificato"
+     "esito": "attenzione"
     },
     {
      "titolo": "Accesso alla prenotazione dal sito",
@@ -386,7 +386,7 @@
     },
     {
      "titolo": "Prezzi, camere e offerte leggibili dai motori di ricerca",
-     "esito": "non verificato"
+     "esito": "attenzione"
     },
     {
      "titolo": "Accesso alla prenotazione dal sito",
