@@ -1,7 +1,26 @@
 {
-  "generato": "2026-11-11",
+  "generato": "2026-11-12",
   "versione": 1,
   "voci": [
+    {
+      "id": "voli-2026-11-12-sciopero-aereo-22-nov",
+      "data": "2026-11-12",
+      "area": "voli",
+      "gravita": "importante",
+      "titolo": "Sciopero del trasporto aereo previsto domenica 22 novembre 2026",
+      "sintesi": "Un articolo di theflightclub.it pubblicato a novembre 2026 annuncia uno sciopero del trasporto aereo per domenica 22 novembre 2026, con indicazione di voli garantiti. La pagina non è stata leggibile in questa verifica: compagnie, aeroporti coinvolti e la presenza di Alghero, Olbia o Cagliari non sono verificati. Ipotesi da controllare: possibile impatto sui voli da e per la Sardegna.",
+      "mercati": [
+        "Italia"
+      ],
+      "fonti": [
+        {
+          "t": "Sciopero aereo domenica 22 novembre, aeroporti e voli garantiti - The Flight Club",
+          "u": "https://www.theflightclub.it/2026/11/sciopero-aereo-domenica-22-novembre-aeroporti-voli-garantiti/",
+          "quando": "novembre 2026 (data esatta non letta)"
+        }
+      ],
+      "azione": "Verificare sul sito delle compagnie e di Aeroporti di Sardegna i voli del 22 novembre 2026 e le eventuali modifiche."
+    },
     {
       "id": "voli-2026-11-08-ryanair-inverno-2026",
       "data": "2026-11-08",
